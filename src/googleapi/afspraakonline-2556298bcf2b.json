@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "afspraakonline-189619",
+  "private_key_id": "2556298bcf2b58918d2bc10ce1edc856cc7007de",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDZccu7LuR6n3Cg\nj8c5aA7lxD7Lk1epcEsf8QGyC6egnR0Zexfqx9WF8VNRLQ0yudk0VgolwkbZWXwf\n0+/mYI/CRTZ47ka1WGajn6GZB7yO93ym7KDT1S2Bu+VOCqKumBVpHhRCFjXY1MRI\nIA2TlfSnUBqr1NfqcsIJNZ8L9HFSgs1gdVafw6sUjVoMXCNIAxnqEgkG62EqrFPo\n32WrPvau5ttPc4H77XvoF1cRB1+il8XkT0vjmsDzggLwndydFihjWPSiooNT1Iqt\nZtYzpjHborMPsQcSKv1RhcOImow3fb3LsOnYSwxCvHsVUmFI8Ks3yFqgzkzlZuHZ\nSu8X4XuHAgMBAAECggEAIHZUrAU8JvJWpiHQ5EkcsECz/0Bn/eu9y273idUjmV7b\nUUqHL43V2sFEZwIKzl/ghWey7CAs45XwafACCKqxy5b5ouQvujMQX60dOvNkuxNH\nkMQS3o0c1hlvCk+cKeSaja7n51XZhB1/kCT44eepNrFGyhBki6PGRAm1TNuZb2/B\nNeTIzRLQ/I4EHcxOORgXAYc8yilLbdi/zbSdg9CD2A1MKlXqLVpQMrGFAqg9Y7iI\nOB9r7+ybiCbzew7kMsCELicqDYVuX1etNCfNv2FhrIh2AqxAy5iAjK9AvWMsClft\nf6Dh2yKMq1lhc8dmHJb/d6N6AFtpoKDazlq0WsTqAQKBgQDut3Fq4fFX3MH9r0Yf\n/SXl40B9JupTCOC+B8B9u3NUeQ5suucSv6zO9F0LjiTEWCbT2was2Q9kofAiQhKS\ndGjtESrRR+Q6fAmS4XLOSiMomBnfsX7k+kl1m9T7BjTgycoWZUNPnQnrngOgywAV\nUXSXC+N2/V+TQb8u9SHk6LG2IQKBgQDpMBR9zJa4IJX3XvV2fLoI3TWlYCiuE3O7\nY2mMqU5CU4oJEasWMDQuLoCHr8B8arsmxKK7hqhdqMq3z8Od2CyG67wNdmMgvNdo\nhUfrQaivupUb66NJB/BIkXuu2cqGcZM2lmez33TVwupWEtQ8X2I54o36WqgG+4FN\nmbUBP+YspwKBgEJXHqDqe6zEP/ElVaKsMm0J07E0MGi1DeghtV/7yRhPsC+NXYw7\nUmYNSRJeBV+/c8LqmpdMl1eLHXYX0Jt82HARlkmk5gtOz0ZPex1TQyQT6RTeefpe\niC20CeNdHTLfQVcp+yPT657cQfvcjoBeK72SYzt9PKNq4RvGqg24kTKhAoGAdd2t\nneCZljwyUTUYUWm+Btj5UrwGE+cVKnSXV1gEjJX5QZhCqBZ5aZZrtSnq23h/XJsr\nvinUVHMK9Fn6AIDSEOh6xzs948BQCS7FKW6ouxpOYCx8/l8a3zNaFwlSyx4BUSg5\nBrw+LAY3uIYP7OwxlBylsxO7trvNodG9ogIQcCUCgYAOUOsUEx24qTUvj9IMIBdJ\ngxzSg8Q1FdNVDiCUWna1Y4IPQbF7WMbHcGU4d0pgFyW9c4AwPp/sKI3cAqFl8jgX\nvaXjcJw/xBWaHW+A8Z8Bl+aiPR9eOJ5maKHB8Ng0/dBzBNTcNBjnablsvHhGdQFX\n+gZPperB6vpa9Q9Mls4pmA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "afspraak@afspraakonline-189619.iam.gserviceaccount.com",
+  "client_id": "117249959994843885986",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/afspraak%40afspraakonline-189619.iam.gserviceaccount.com"
+}
