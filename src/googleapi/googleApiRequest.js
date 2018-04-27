@@ -32,22 +32,20 @@ export default class GoogleApiRequest extends Component {
 
     addEvent() {
         return this.getActiveToken().then(response => {
-            let json = {
-                'start': {'dateTime': moment().format('YYYY-MM-DDTHH:mm:ss') + 'Z', 'timeZone': 'Europe/Zurich'},
-                'end': {'dateTime': moment().add(1, 'hour').format('YYYY-MM-DDTHH:mm:ss') + 'Z', 'timeZone': 'Europe/Zurich'},
-                description: 'Test'
+            let test = {
+                end: {
+                    dateTime: "2018-04-27T09:00:00-08:00"
+                },
+                start: {
+                    dateTime: "2018-04-27T09:00:00-07:00"
+                }
             };
             let object = {
-                'calendarId': this.activeCalendar,
-                'resource': {
-                    'end': {
-                        'dateTime': '2014-07-28T23:00:00',//end,
-                        'timeZone': 'Europe/Brussels'
-                    },
-                    'start': {
-                        'dateTime': '2014-07-28T18:00:00',//start,
-                        'timeZone': 'Europe/Brussels'
-                    }
+                calendarId: this.activeCalendar,
+                resource : {
+                    start: { dateTime: "2018-04-27T09:00:00+02:00" },
+                    end: { dateTime: "2018-04-27T10:00:00+02:00" },
+                    summary: "testSummar"
                 }
             };
 
@@ -78,14 +76,13 @@ export default class GoogleApiRequest extends Component {
                     ]
                 }
             };
-            console.log(json);
             return fetch('https://www.googleapis.com/calendar/v3/calendars/' + this.activeCalendar + '/events?access_token=' + response, {
+                mode: 'no-cors',
                 method: 'POST',
-                header: {
-                    'Authorization': 'Bearer '+response,
-                    'content-type': 'application/json'
+                headers: {
+                    'Content-Type': 'application/json'
                 },
-                body: JSON.stringify(json)
+                body: object
             });
         });
     }
@@ -93,9 +90,8 @@ export default class GoogleApiRequest extends Component {
     getActiveToken() {
         //Api Url: https://developers.google.com/google-apps/calendar/v3/reference/calendarList/list
         // Auth plugin Url: https://www.npmjs.com/package/google-auto-auth
-        let self = this;
         return new Promise((resolve, reject) => {
-            self.auth.getToken(function (err, token) {
+            this.auth.getToken(function (err, token) {
                 if (err !== undefined && err !== null) {
                     reject(err);
                 }

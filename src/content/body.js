@@ -3,7 +3,7 @@ import Datepicker from '../util/datepicker';
 import $ from 'jquery';
 import GoogleApiRequest from '../googleapi/googleApiRequest';
 
-class Header extends Component {
+class Body extends Component {
     googleApiRequest = new GoogleApiRequest();
     merchantName = "Jens Company";
     appointmentLength = 60;
@@ -76,4 +76,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default Body;
